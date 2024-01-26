@@ -1,0 +1,20 @@
+# Ignore static files directory (if using a separate server for static files)
+/static/
+
+# Ignore media files directory
+/media/
+
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore compiled Python files
+__pycache__/
+
+*.pyc
+
+# Ignore logs and cache
+*.log
+*.cache/
