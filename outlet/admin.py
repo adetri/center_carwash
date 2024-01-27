@@ -6,7 +6,7 @@ from .models import Outlet
 
 
 class OutletAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'endpoin', 'alamat', 'no_telpn')
+    list_display = ('id', 'name', 'endpoin', 'alamat', 'no_telpn', 'slug')
     search_fields = ('name', 'alamat', 'no_telpn__e164')
 
 
